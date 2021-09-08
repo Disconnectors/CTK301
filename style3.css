@@ -1,0 +1,38 @@
+h1 {
+  color: #FF00FF;
+  background-color: #00FFFF;
+}
+
+a {
+  color: #FF0000;
+}
+a:hover {
+  color: #FFFF00;
+}
+a:visited {
+  color: #00FF00;
+}
+
+.classes {
+  color: #00FF00;
+  background-color: #FFFF00;
+}
+
+.specialclass {
+  color: #FF0000;
+  background-color: #0000FF;
+}
+
+#specialid {
+  color: #FFC0CB;
+  background-color: #87CEEB;
+}
+
+.spanstyle {
+  color: #006400;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
