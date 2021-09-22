@@ -1,45 +1,65 @@
-/* This is my new stylesheet */
-
-/* p {
-  color: #ff0000;
-  background-color: #004455;
-} */
-
-h1 {
-  color: #FFFFFF;
-  background-color: #80CBB3;
+.container {
+  position: relative;
+  margin: 0%;
 }
 
-a {
-  color: #ff0000;
-  text-decoration: none;
+.top-right {
+  position: absolute;
+  width: 220px;
+  top: 30px;
+  right: 350px;
+  text-align: right;
+  color: white;
+  font-style: Helvetica;
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
 
+.centered {
+  position: absolute;
+  top: 90px;
+  left: 180px;
+  font-size: 150px;
+  font-weight: bolder;
+  font-family: Impact;
+  color: #197cd2;
+  letter-spacing: -5px;
+}
+
+.spano {
+  color: orange;
+}
+
+.bottom {
+  color: #197cd2;
+  font-family: Arial, Helvetica;
+  font-weight: bold;
+  text-align: center;
+  width: 670px;
+  font-size: 15px;
+}
+
+.spanSmall {
+  font-size: 70%;
+}
+
+.spanPara {
+  display: block;
+}
+
+a:link {
+  color: #197cd2;
+  font-weight: bold;
+}
 a:hover {
-  color: #0000FF;
-  text-decoration: underline;
+  color: orange;
 }
 
-.spanstyle {
-  color: #00FF00;
+.pgcenter {
+  display: block;
+  position: relative;
+  left: 250px;
 }
-
-#divexample {
-  color: #0000FF;
-  background-color: #FFFF00;
-}
-
-#specialid {
-  color: #00FF00;
-  background-color: #000000;
-}
-
-.specialp {
-  color: #00FF00;
-  background-color: #FFFFFF;
-}
-
-footer {
-  color: #FFFFFF;
-  background-color: #FF0000;
+.linkspace {
+  line-height: 3;
 }
