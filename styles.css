@@ -1,0 +1,94 @@
+body {
+  background-image: url("a62.png");
+
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+header {
+  background-color: #000000;
+  background-size: normal;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 15px;
+  font-family: Helvetica;
+  grid-column: span 3;
+}
+
+nav {
+  grid-column: span 1;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+  margin: 0 0 1em 0;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  grid-column: span 1;
+  border-bottom: 2px solid black;
+  font-family: Helvetica;
+}
+
+main {
+  grid-column: span 2;
+  padding-right: 30px;
+}
+
+.textallign {
+  text-align: justify;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+
+a.nav {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.nav:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+main img {
+  padding: 1em;
+  border: 3px solid black;
+  float: left;
+}
+
+footer {
+  background-color: red;
+  grid-column: span 3;
+  padding: 16px;
+  text-align: center;
+  text-family: Verdana;
+  font-style: italic;
+  color: white;
+}
