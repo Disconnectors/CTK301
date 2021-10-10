@@ -1,0 +1,147 @@
+body {
+  background-color: #999999;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid #00479f;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header {
+  background: rgb(0,81,171);
+  background: linear-gradient(0deg, rgba(0,81,171,1) 0%, rgba(0,108,199,1) 100%);
+  color: #66CCFF;
+  grid-column: span 4;
+  padding-left: 2em;
+  font-style: oblique;
+  font-family: Helvetica, Arial, sans-serif;
+  border-bottom: 3px solid #00479f;
+}
+
+header a {
+  color: #66CCFF;
+  text-decoration: none;
+}
+header a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+nav {
+  grid-column: span 4;
+  background-color: #00479F;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  width: 231px;
+  display: inline-block;
+  border: 3px solid #00479F;
+}
+
+nav li a {
+  display: block;
+  background: linear-gradient(0deg, rgba(0,81,171,1) 0%, rgba(0,108,199,1) 100%);
+  color: #66CCFF;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  padding: 1em;
+}
+
+.notext {
+  color: rgb(0,81,171);
+}
+
+nav li a:hover {
+  background-color: red;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h2 {
+  grid-column: span 4;
+  border-bottom: 3px solid #00479F;
+  margin: 1em;
+  color: #00479F;
+  font-family: Helvetica, sans-serif;
+}
+
+.h1text {
+  grid-column: span 4;
+  margin: 0 1em 0 1em;
+  font-weight: bold;
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+}
+
+#anotherh2 {
+  grid-column: span 4;
+  font-family: Helvetica, sans-serif;
+}
+
+.h2text {
+  grid-column: span 3;
+  padding: 1em;
+  margin: 0 1em 0 1em;
+  font-family: Helvetica, sans-serif;
+}
+
+.redtext {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+#anotherh2 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.floatleft {
+  margin: 1em;
+  float: left;
+  border: 3px solid #00479F;
+}
+footer {
+  grid-column: span 4;
+  background-color: red;
+  border-top: 3px solid #00479F;
+  padding: 1em 0 1em 2em;
+}
+
+.floatright {
+  margin: 1em;
+  float: right;
+  border: 3px solid #00479F;
+}
+.h3text {
+  grid-column: span 4;
+  padding: 1em;
+  margin: 0 1em 0 1em;
+  font-family: Helvetica, sans-serif;
+}
+
+.galleryimg {
+  margin: 1em;
+  border: 3px solid #00479F;
+}
