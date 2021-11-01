@@ -1,0 +1,195 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+	display: grid;
+	background-color: #809BCE;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column: span 12;
+	margin-bottom: 12px;
+}
+
+.mainpage:link {
+  text-decoration: none;
+  color: black;
+}
+
+.mainpage:hover {
+  color: pink;
+}
+
+.mainpage:visited {
+  color: black;
+}
+
+h1 {
+  background-color: #809BCE;
+  grid-column: span 6;
+  font-size: 36px;
+  margin: 0;
+  padding: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+}
+
+nav {
+  display: grid;
+  align-items: center;
+	grid-column: span 6;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+  display: inline-block;
+	padding: 0;
+	border-left: 1px solid #D6EADF;
+}
+
+li a {
+	display: block;
+  text-decoration: none;
+  font-size: 36px;
+	margin: 0;
+	padding: 12px;
+  color: black;
+}
+
+li a:hover {
+  color: pink;
+}
+
+.mainimg {
+  width: 1200px;
+  opacity: 80%;
+}
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.box .text {
+  color: white;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 80%;
+  text-align: center;
+  top: 1%;
+}
+.moretext {
+  margin: 36px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: justify;
+  font-size: 24px;
+  width: 1000px;
+}
+
+.box2 {
+  display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column: span 12;
+	margin-bottom: 12px;
+}
+
+
+h3 a {
+  text-decoration: none;
+  color: black;
+}
+h3 a:hover {
+  color: pink;
+}
+
+.gameportfolio {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #D6EADF;
+  grid-column: span 6;
+  font-size: 36px;
+  padding: 12px;
+  border-right: 10px solid white;
+}
+
+.professionalgamer {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #D6EADF;
+  grid-column: span 6;
+  font-size: 36px;
+  padding: 12px;
+  border-left: 10px solid white;
+}
+
+.lightitup {
+  grid-column: span 6;
+  width: 590px;
+}
+.clol {
+  grid-column: span 6;
+  width: 590px;
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #D6EADF;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  grid-column: span 12;
+}
+.footertext {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 12px;
+}
+
+.navGD {
+  color: white;
+}
+
+.foxjump {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #D6EADF;
+  grid-column: span 6;
+  font-size: 36px;
+  padding: 12px;
+  border-right: 10px solid white;
+}
+.foxjumpimg {
+  grid-column: span 6;
+  width: 590px;
+}
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column: span 12;
+}
