@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Game Designer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="assignment12.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+			<header>
+		    <h1><a class="mainpage" href="assignment10.html">William Kim</a></h1>
+		    <nav>
+		      <ul>
+		        <li><a href="gamedesigner.html">Game Designer</a></li>
+		        <li><a href="professionalgamer.html">Professional Gamer</a></li>
+		      </ul>
+		    </nav>
+			</header>
+      <div id="myCarousel" class="carousel">
+          <div class="carousel__slide"><img src="foxjump.png"></div>
+          <div class="carousel__slide"><img src="fighterplanes.png"></div>
+          <div class="carousel__slide"><img src="lightitup.png"></div>
+      </div>
+			<footer>
+				<p class="footertext">Copyright William Kim - Illinois State University - Normal, IL</p>
+			</footer>
+
+    </div>
+    <script>
+    const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+    });
+    </script>
+  </body>
+</html>
